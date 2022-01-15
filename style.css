@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@font-face {
+    font-family: 'zen';
+    src: url(font/ZenKurenaido-Regular.ttf);
+}
+
+body{
+    font: normal 12pt 'zen';
+    background:  #e056fd;
+    background-image: linear-gradient(315deg, #e056fd 0%, #000000 88%);
+    color: white;
+}
+
+.to-top-button{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border:none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    padding:10px;
+    border-radius:35px;
+    font-size:18px;
+    box-shadow:1px 1px 3px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.head-img{
+    display: flex;
+    height: 85px;
+}
+
+.head-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.head-menu-item{
+    font: normal 14pt 'zen';
+    color:white;
+    text-decoration: none;
+}
+
+.head-menu-item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content{
+    border-top: 0.5px solid #eee;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.main-content-written{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-written-title{
+    font-family: 'Lobster', cursive;
+    background: -webkit-linear-gradient(rgb(243, 243, 243), rgb(226, 16, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.carousel-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.carousel{
+    overflow: hidden;
+    border: 2px solid rgb(194, 183, 194);
+    border-radius: 10px;
+    height:350px;
+    width: 350px;
+}
+
+.main-content-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.main-content-social-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+.main-content-social-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+
+.main-content-social-title{
+    font-weight: 400;
+}
+.main-face-logo:hover{
+    cursor: pointer;
+}
+
+.main-insta-logo:hover{
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0)
+}
+
+.food-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.food-menu-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.food-menu-title{
+    font-family: 'Lobster', cursive;
+    background: -webkit-linear-gradient(rgb(243, 243, 243), rgb(226, 16, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.food-menu-subtitle{
+    font-weight: 400;
+}
+
+.food-menu-img{
+    border: 2px solid rgb(194, 183, 194);
+    border-radius: 10px;
+}
+
+.food-menu-img:hover{
+     -webkit-transform: scale(1.5);
+     transition: 1s;
+}
+
+.map-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.map-section-title{
+    font-family: 'Lobster', cursive;
+    background: -webkit-linear-gradient(rgb(247, 247, 247), rgb(248, 37, 231));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.mapouter{
+    border: 2px solid white;
+}
+
+.footer-main{
+    margin-top: 50px;
+    border-top: 2px solid rgb(194, 183, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.pro-social:hover{
+   cursor: pointer;
+   text-decoration: underline;
+}
