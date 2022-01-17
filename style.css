@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&display=swap');
+
+
 
 @font-face {
     font-family: 'zen';
@@ -125,12 +128,17 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px 20px;
+    gap: 20px 80px;
 }
 
 
 .main-content-social-title{
-    font-weight: 400;
+    font-family: 'Courgette', cursive;
+    background: -webkit-linear-gradient(rgb(243, 243, 243), rgb(226, 16, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    font-weight: 800;
 }
 .main-face-logo:hover{
     cursor: pointer;
@@ -170,7 +178,12 @@ body{
 }
 
 .food-menu-subtitle{
-    font-weight: 400;
+    font-family: 'Courgette', cursive;
+    background: -webkit-linear-gradient(rgb(183, 194, 182), rgb(212, 220, 221));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .food-menu-img{
@@ -178,17 +191,12 @@ body{
     border-radius: 10px;
 }
 
-.food-menu-img:hover{
-     -webkit-transform: scale(1.5);
-     transition: 1s;
-}
-
 .map-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-top: 175px;
 }
 
 .map-section-title{
