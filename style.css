@@ -189,6 +189,10 @@ body{
 .food-menu-img{
     border: 2px solid rgb(194, 183, 194);
     border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    
+
 }
 
 .map-section{
