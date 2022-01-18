@@ -84,7 +84,7 @@ body{
 
 .main-content-written-title{
     font-family: 'Lobster', cursive;
-    background: -webkit-linear-gradient(rgb(243, 243, 243), rgb(226, 16, 209));
+    background: -webkit-linear-gradient(rgb(182, 109, 211), rgb(226, 16, 209));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 36px;
@@ -117,9 +117,9 @@ body{
 
 .main-content-social-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px 20px;
 }
 
@@ -133,6 +133,7 @@ body{
 
 
 .main-content-social-title{
+   
     font-family: 'Courgette', cursive;
     background: -webkit-linear-gradient(rgb(243, 243, 243), rgb(226, 16, 209));
     -webkit-background-clip: text;
@@ -187,10 +188,12 @@ body{
 }
 
 .food-menu-img{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
     border: 2px solid rgb(194, 183, 194);
     border-radius: 10px;
-    height: 500px;
-    width: 400px;
     
 
 }
@@ -213,6 +216,10 @@ body{
 }
 
 .mapouter{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
     border: 2px solid white;
 }
 
